@@ -7,11 +7,11 @@ function NavBar() {
       collapseOnSelect
       expand="lg"
       variant="dark"
-      className="shadow"
+      className="shadow fixed-top"
       style={{ backgroundColor: "#212F45" }}
     >
       <Container>
-        <img src="./img/logo.png" style={{ height: "40px" }} />
+        <img src="./img/logo.png" style={{ height: "40px" }} alt="Logo" />
         <Navbar.Brand href="#home"> Forgotten Quebec</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
